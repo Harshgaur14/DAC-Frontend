@@ -31,7 +31,7 @@ export default function Home() {
     setIsLoading(true);
 
     try {
-      const response = await fetch('http://10.226.39.57:8082/user/signin', {
+      const response = await fetch('http://localhost:8082/user/signin', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

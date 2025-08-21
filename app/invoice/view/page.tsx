@@ -1,6 +1,6 @@
 'use client';
 import React, { useState, useEffect } from 'react';
-import { Search, Download, Eye, MoreVertical, FileText, TrendingUp, IndianRupee } from 'lucide-react';
+import { Search, Download, FileText, TrendingUp, IndianRupee } from 'lucide-react';
 import Navbar from '@/Component/Navbar';
 import jsPDF from "jspdf";
 import autoTable from "jspdf-autotable";

@@ -30,7 +30,7 @@ export default function InvoiceForm() {
     try {
       const token = localStorage.getItem('token');
 
-      const response = await fetch('http://localhost:8082/invoices/save', {
+      const response = await fetch('http://localhost:8080/invoices/save', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

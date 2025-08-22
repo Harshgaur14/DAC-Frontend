@@ -64,7 +64,7 @@ const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     try {
       const token = typeof window !== 'undefined' ? localStorage.getItem('token') : null;
 
-      const response = await fetch('http://localhost:8082/invoices/save', {
+      const response = await fetch('http://159.65.151.218:8080/invoices/save', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

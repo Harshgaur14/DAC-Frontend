@@ -34,7 +34,7 @@ const InvoiceDashboard: React.FC = () => {
 
       const token = localStorage.getItem("token"); // 👈 get token from storage
 
-      const response = await fetch("http://localhost:8082/invoices", {
+      const response = await fetch("http://159.65.151.218:8080/invoices", {
         method: "GET",
         headers: {
           "Content-Type": "application/json",
